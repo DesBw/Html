@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test site</title>
+    <style>
+		body {
+			margin: 2em;
+			font: 16px -apple-system, sans-serif;
+			line-height: 1.333em;
+		}
+		header {
+			text-align: center;
+		}
+		@media (prefers-color-scheme: dark) {
+			body {
+				background-color: #222;
+				color: #eee;
+			}
+			img {
+				filter: invert(1);
+			}
+		}
+    </style>
+  </head>
+  <body>
+  
+	<header>
+		<h1>A sample page</h1>
+	</header>
+	
+<h2 align="left">The paragraph</h2>
+
+	<p>This is the sample <em>paragraph</em>. We can write <strong>strong</strong> texts to mark it as such. </p>
+	
+<h2 align="left">The image</h2>
+
+	<img src="./images/cat.jpg" alt="image needs extension" height="200" width="250">
+
+<h2 Listing align="left"> Lists </h2>
+
+<h3 align="left">unordered</h3>
+
+unordered list:
+<ul type="square"> <!-- bullet type: disc/square/circle-->
+<li>first list</li>
+<li>second list</li>
+<li>third list</li>
+</ul>
+
+<h3 align="left">ordered</h3>
+
+<ol start="a" type="a"> <!-- start: where to start counting; 
+type:
+"1" for Arabic numbers 1, 2, 3
+"A" / "a" for Capital / Lower-case letters A, B, C / a, b, c
+"I" / "i" for Roman numbers / Lower-case Roman numbers I, II, III / i, ii, iii -->
+<li>first list</li>
+<li>second list</li>
+</ol>
+
+<h2>Links</h2>
+
+		<h3 align="center"> Absolute links</h3>
+		
+We can also anchor to local files
+<a href="file:///Users/dwo000/Downloads/us.sitesucker.mac.sitesucker-pro/www.theodinproject.com/lessons/foundations-links-and-images.html" target="_blank" rel="noopener">local links</a>
+<!--
+		- _blank tells the link to open in a new tab (window). _self (default) would open in the same page
+		noopener prevents phishing attack because the linked page would have no access to the source page	-->
+		<h3 align="center">Relative links</h3>
+
+	Files in the same directory or close to it can be linked directly (without referring to domain or address): <a href="./pages/about.html">relative link</a>
+  </body>
+</html>

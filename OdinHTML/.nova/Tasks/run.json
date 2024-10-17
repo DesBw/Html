@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/usr\/bin\/env node\n",
+      "shell" : "\/Users\/dwo000\/.nvm\/versions\/node\/v22.9.0\/bin\/node"
+    }
+  },
+  "openLogOnRun" : "finish"
+}
