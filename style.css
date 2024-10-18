@@ -1,0 +1,9 @@
+* {
+  color: green;
+}
+.small { 
+  color: red;
+}
+div { <!-- element/type selector; no dot -->
+  color: white;
+}
