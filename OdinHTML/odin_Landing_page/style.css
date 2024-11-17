@@ -114,12 +114,12 @@ a {
   padding: 30px;
 }
 .box {
-  /* 		width | style | color */
-  border: thin solid blue;
   border-radius: 5px;
+  gap: 20px;
+}
+.box img {
   width: 150px;
   height: 150px;
-  gap: 20px;
 }
 .sub {
   display: inline-block;
