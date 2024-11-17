@@ -1,0 +1,42 @@
+
+001 MDN-Background-Image-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
+002 MDN-Background-Repeat-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
+
+003 MDN-Background-Size-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+004 MDN-Background-Position-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+
+005 MDN-Background-Clip-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
+
+006 Background-Exercise-STARTER
+https://codepen.io/Colt/pen/BaPOWQz
+
+006 Background-Exercise-SOLUTION
+https://codepen.io/Colt/details/wvxEJgo
+
+008 MDN-Linear-Gradient-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
+
+009 MDN-Radial-Gradient-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient
+
+009 MDN-Conic-Gradient-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient
+
+009 MDN-Repeating-Linear-Gradient-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+
+009 MDN-Repeating-Radial-Gradient-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
+
+010 MDN-Background-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/background
+
+011 MDN-Filter-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter

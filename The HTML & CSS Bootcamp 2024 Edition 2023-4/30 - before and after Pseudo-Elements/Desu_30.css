@@ -1,0 +1,39 @@
+h1 {
+  font-size: 5rem;
+}
+h1::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: aqua;
+  display: inline-block;
+}
+p::after {
+  content: "--Yours truely-";
+}
+
+blockquote {
+  font-size: 1rem;
+  font-style: italic;
+  width: 50%;
+  position: relative;
+}
+blockquote::before {
+  content: open-quote;
+  top: -50px;
+}
+blockquote::after {
+  content: close-quote;
+  right: 50px;
+}
+blockquote::before,
+blockquote::after {
+  font-size: 4rem;
+  background-color: grey;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+}

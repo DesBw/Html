@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test site</title>
+    <style>
+      body {
+        margin: 2em;
+        font: 16px -apple-system, sans-serif;
+        line-height: 1.333em;
+      }
+      button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Form controls</h1>
+
+    <form action="http://www.google.com/search" method="get">
+      <label for="firstname">First Name</label>
+      <input
+        type="text"
+        name="q"
+        placeholder="first name"
+        id="firstname"
+        required
+      />
+      <br />
+      <label for="lastname">Last Name</label>
+      <input
+        type="text"
+        name="q"
+        placeholder="last name"
+        id="lastname"
+        required
+      />
+      <br />
+      <label for="mypass">Password</label>
+      <input
+        type="password"
+        name="mypass"
+        placeholder="write your password here"
+        id="mypass"
+      />
+      <br />
+      <label for="_Phone">Phone number</label>
+      <input
+        type="number"
+        name="Phone"
+        placeholder="write your phone number here"
+        id="_Phone"
+      />
+      <br />
+      <label for="_email">Email </label>
+      <input type="email" name="email" placeholder="write here" id="_email" />
+      <br />
+      <label for="tx1">Comment</label>
+      <textarea cols="50" rows="2" name="texa" id="tx1">
+	  Write your comment here.
+	  </textarea
+      >
+      <br />
+      <input
+        type="range"
+        name="range"
+        placeholder="write here"
+        id="_range"
+        min="0"
+        max="10"
+      />
+      <br />
+      <br />
+      <label for="_mycheck">I agree with the terms and conditions.</label>
+      <input type="checkbox" name="mycheck" id="_mycheck" />
+      <br />
+      <label for="s_select">Shirt size</label>
+      <select name="shirtSize" id="s_select">
+        <option value="s">small</option>
+        <option value="m">medium</option>
+        <option value="l">large</option>
+      </select>
+      <br />
+      <!--giving them the same name makes the check boxes connected; one cannot check two of them at the same time.   -->
+      <label for="_phone">phone</label>
+      <input type="radio" name="contact" value="email" id="_phone" />
+      <label for="_phone">email</label>
+      <input type="radio" name="contact" value="email" id="_email" />
+
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+
+004 MDN-The-External-Resource-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+
+007 MDN-Type-Selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors

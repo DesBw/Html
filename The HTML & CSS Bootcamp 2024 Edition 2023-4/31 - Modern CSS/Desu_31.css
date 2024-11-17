@@ -1,0 +1,37 @@
+/* defining the variable */
+:root {
+  --brand-color: rgb(57, 150, 118);
+  --standard-shadow: 0px 2px 40px rgb(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: sans-serif;
+  /* background-color: black; */
+}
+
+/* using the variable */
+button {
+  background: var(--brand-color);
+  box-shadow: var(--standard-shadow);
+}
+
+h2 {
+  color: var(--brand-color);
+  text-shadow: var(--standard-shadow);
+  margin-top: calc(20px - 5px);
+}
+span {
+  color: var(--brand-color);
+}
+
+div {
+  /* 		width | style | color */
+  border: thin solid var(--brand-color);
+}
+
+/* redefine the variables for small screens */
+@media screen and (max-width: 800px) {
+  :root {
+    --brand-color: greenyellow;
+  }
+}

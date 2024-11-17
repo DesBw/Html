@@ -1,0 +1,24 @@
+
+001 MDN-Background-Color
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+
+003 MDN-List-of-Named-Colors
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+004 MDN-rgb-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb
+
+005 MDN-Hex-Colors-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color
+
+006 MDN-Opacity-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+008 MDN-Inheritance-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance
+
+009 Colors-Exercise-Starter
+https://codepen.io/Colt/pen/BaPVGKa
+
+009 Colors-Exercise-SOLUTION
+https://codepen.io/Colt/details/eYjjJXa

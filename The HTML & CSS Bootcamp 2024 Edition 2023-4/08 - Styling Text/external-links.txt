@@ -1,0 +1,45 @@
+
+001 MDN-Font-Family-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+
+001 Wikipedia-Serif-Fonts
+https://en.wikipedia.org/wiki/Serif
+
+001 CSS-Font-Stack
+https://www.cssfontstack.com/
+
+002 MDN-Font-Size
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+
+002 MDN-Font-Weight
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+002 MDN-Font-Style
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
+
+003 MDN-Text-Align
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+004 MDN-Line-Height
+https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+004 MDN-Letter-Spacing
+https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+004 MDN-Word-Spacing
+https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
+
+005 Google-Fonts
+https://fonts.google.com/
+
+006 CSS-Text-Basics-Exercise-STARTER
+https://codepen.io/Colt/pen/LYBBPBO
+
+006 CSS-Text-Basics-Exercise-SOLUTION
+https://codepen.io/Colt/pen/QWBByeZ
+
+007 MDN-Text-Shadow
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+007 Text-Shadow-Example-Codepen
+https://codepen.io/TajShireen/pen/abzmoRE

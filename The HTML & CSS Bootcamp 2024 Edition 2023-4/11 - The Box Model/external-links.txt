@@ -1,0 +1,57 @@
+
+002 MDN-Border-Width-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+
+002 MDN-Border-Style-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+
+002 MDN-Border-Color-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-color
+
+002 MDN-Border-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+003 MDN-Width-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/width
+
+003 MDN-Height-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/height
+
+003 MDN-Percentages-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+
+004 MDN-Padding-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+
+005 MDN-Margin-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+
+006 MDN-Box-Sizing-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+007 MDN-Block-Inline-Flow-Tutorial
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow
+
+007 MDN-Display-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+010 MDN-Mastering-Margin-Collapsing
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
+012 MDN-Min-Width-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/min-width
+
+012 MDN-Max-Width-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+
+013 MDN-Border-Radius-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+014 MDN-Box-Shadow-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+014 Box-Shadow-Generator
+https://cssgenerator.org/box-shadow-css-generator.html
+
+015 MDN-Overflow-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow

@@ -1,0 +1,51 @@
+h1 {
+  border-style: solid;
+  border-bottom-color: aqua;
+  border-width: 1em; /*thickness of border */
+  width: 400px; /*width of the box, content box*/
+  height: auto;
+}
+
+#container {
+  /* box-sizing: border-box; */
+  height: 400px;
+  width: 600px;
+  /* 		width | style | color */
+  border-width: 3em 1em 2em; /*thickness of border */
+  border-style: solid;
+  border-color: rgb(160, 40, 165);
+  padding: 1em 1em 0 1em;
+  margin: -3px auto 5px 1em; /*the size of the space outside of the border */
+}
+
+.par {
+  height: auto; /* 20%; in relative to the parent*/
+  width: auto; /*50%; percentage in relative to the container */
+  border: medium solid green;
+  background-color: grey;
+  color: white;
+  padding: 2em 1em 2em; /*space between the content/text and border */
+  margin: 10% auto; /*the size of the space outside of the border */
+  /*vertical-shadow |blur-radius |spread radius | shadow-color |opacity*/
+  box-shadow: 8px 10px 15px -5px rgba(0, 0, 0, 0.75);
+}
+#lon {
+  width: 600px;
+  padding: 1em; /*the size of space between the content (text) and border */
+}
+
+#eng {
+  color: blue;
+  text-decoration: underline dotted red;
+  border: 5px solid;
+  padding: 1em; /*the size of space between the content (text) and border */
+  margin: 1em; /*the size of the space outside of the border */
+}
+
+div.over {
+  width: 10em;
+  height: 6em;
+  border: dotted;
+  margin-top: 0.5em;
+  overflow: auto;
+}

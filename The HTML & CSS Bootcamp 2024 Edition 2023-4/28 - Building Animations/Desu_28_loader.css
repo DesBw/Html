@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.spinner {
+  width: 200px;
+  height: 200px;
+  border: 12px solid rgba(127, 127, 127, 0.904);
+  border-top-color: blue;
+  border-radius: 50%;
+  /*		Name | Duration | easing-function | delay | iteration-count | direction | fill-mode |  play state */
+  animation: spinn 2s ease-in-out 0s 3 normal both paused;
+}
+@keyframes spinn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 0 10px;
+  /*		Name | Duration | easing-function | delay | iteration-count | direction | fill-mode |  play state */
+}
+
+@keyframes bouncing-balls {
+  0%,
+  75% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-20px);
+  }
+}
+
+.loader span:nth-child(1) {
+  animation: bouncing-balls 1s ease-in-out 0s 5 normal both running;
+}
+.loader span:nth-child(2) {
+  animation: bouncing-balls 1s ease-in-out 0.4s 5 normal both running;
+}
+.loader span:nth-child(3) {
+  animation: bouncing-balls 1s ease-in-out 0.8s 5 normal both running;
+}

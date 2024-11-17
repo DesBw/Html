@@ -1,0 +1,12 @@
+
+001 MDN-The-Content-Span-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+
+002 MDN-The-Content-Division-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+
+003 MDN-Table-Basics
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
+
+005 MDN-Semantic-Elements-Reference
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics

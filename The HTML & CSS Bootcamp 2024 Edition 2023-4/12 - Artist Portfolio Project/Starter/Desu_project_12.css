@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+  color: black;
+  /* padding: 20px; */
+  font-family: Cormorant, serif;
+}
+
+.row {
+  width: 550px;
+  border: thin solid red;
+}
+.img {
+  width: 500px;
+  height: auto;
+  margin: 1em 1em 1em 1em; /*the size of the space outside of the border */
+}
+
+.pic1 {
+  width: 600px;
+  border: thin solid red;
+}
+.caption {
+  width: 30px;
+  margin: 1px 1px 1px 1px; /*the size of the space outside of the border */
+  border: thin solid green;
+}
+
+p {
+  width: 300px;
+}
+
+#capt1 {
+  border: thin solid green;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0; /*the size of the space outside of the border */
+}
+.links {
+  display: inline-block;
+}
+.links li {
+  display: inline-block;
+}
+ul {
+  padding: 0em; /*the size of space between the content (text) and border */
+}
+header {
+  margin: 32px; /*the size of the space outside of the border */
+}
+
+.links a {
+  font-size: 20px; /* I cannot put this in the above .link li ; looks like these properties cannot be inherited from the li to the anchor.j*/
+  color: black;
+  text-decoration: none;
+  margin: 0 8px; /*the size of the space outside of the border */
+}
+
+a.active {
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.card {
+  width: 40%;
+  display: inline-block; /*this is the trick to avoid the divs, and images fit into the same line*/j
+}

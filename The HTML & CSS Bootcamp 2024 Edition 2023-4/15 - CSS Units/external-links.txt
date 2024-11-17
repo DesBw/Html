@@ -1,0 +1,9 @@
+
+001 CSS-Lengths-Explained
+https://hacks.mozilla.org/2013/09/css-length-explained/
+
+003 CSS-Values-and-Units-Article
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+
+008 MDN-Float-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/float

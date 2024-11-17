@@ -1,0 +1,24 @@
+
+002 MDN-Transition-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+004 Great-Timing-Functions-Blog-Post
+https://www.kirupa.com/html5/timing_functions.htm
+
+004 Easing-Functions-Cheatsheet
+https://easings.net/
+
+007 MDN-Transform-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+007 MDN-Translate-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
+
+008 MDN-Scale-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale
+
+008 MDN-Rotate-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+
+009 MDN-Transform-Origin-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin

@@ -1,0 +1,52 @@
+body {
+  margin: 2em;
+  font: 16px -apple-system, sans-serif;
+  line-height: 1.333em;
+}
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+table,
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  /* width: 80%; */
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #26e69f;
+  /*hex numbers are reinterpreted rgb*/
+  color: white;
+}
+p {
+  text-align: justify;
+  /* color: rgb(0, 148, 147); */
+  opacity: 0.7; /*another way of controlling transparency; not just the text; but everything*/
+}
+a {
+  color: cyan;
+}
+ol {
+  color: #73b;
+}
+li {
+  /* background-color: grey; */ /*doesn't include the numbers*/
+  /* color: rgb(29, 74, 79); */
+  /* color: rgba(20, 20, 200, 0.328); a is for alpha chanel; transparency 0-1)  */
+}
+
+/* a {
+  background: gray;
+} */

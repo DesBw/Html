@@ -1,0 +1,36 @@
+
+001 MDN-The-Button-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+
+001 MDN-The-Input-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+002 MDN-The-Form-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+002 MDN-Your-First-Form
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
+
+004 MDN-The-Label-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+
+005 MDN-Other-Input-Types
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types
+
+006 MDN-Range-Inputs
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+
+006 MDN-Checkbox-Inputs
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+
+006 MDN-The-Textarea-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+
+007 MDN-The-Select-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+
+007 MDN-The-Option-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+
+007 MDN-Radio-Buttons
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio

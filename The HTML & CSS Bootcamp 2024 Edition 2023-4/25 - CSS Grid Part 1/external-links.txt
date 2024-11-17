@@ -1,0 +1,36 @@
+
+002 Article-How-Display-inline-grid-Works
+https://www.js-craft.io/blog/how-display-inline-grid-works-in-css-and-how-is-different-from-display-grid/
+
+003 MDN-Grid-Template-Columns-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+
+004 Grid-Template-Rows
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+
+005 Grid-Exercise-1-STARTER
+https://codepen.io/Colt/pen/YzjOgWa
+
+005 Grid-Exercise-1-SOLUTION
+https://codepen.io/Colt/pen/rNrZRLL
+
+006 MDN-Grid-Template-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+
+007 MDN-The-Minmax-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/minmax
+
+008 MDN-The-Repeat-Function
+https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+
+009 MDN-Fit-Content
+https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
+
+010 MDN-The-Gap-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+
+011 Grid-Exercise-2-STARTER
+https://codepen.io/Colt/pen/vYazPJa
+
+011 Grid-Exercise-2-SOLUTION
+https://codepen.io/Colt/pen/VwBGRXB

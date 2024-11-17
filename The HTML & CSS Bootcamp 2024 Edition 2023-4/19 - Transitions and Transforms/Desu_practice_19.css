@@ -1,0 +1,32 @@
+.but {
+  /* background-color: rgb(241, 138, 31); */
+  padding: 30px 150px;
+  border: 2px solid black;
+  transition: transform 2s ease-in-out;
+  color: orangered;
+}
+
+.but:hover {
+  /*
+  background-color: rgb(31, 168, 241);
+  color: white;
+  border: 5px dashed red;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 50%;
+*/
+  /* padding-top: 10px; */
+  /*/transform*/
+  /* transform: translate(200px); */
+  /* transform: skew(30deg, 20deg); */
+  /* transform: scale(0.5) translate(-100%, -100%); */
+  transform: rotateX(45deg);
+}
+h1 {
+  /* transform-origin: bottom; */
+  /* 		width | style | color */
+  border: thin solid green;
+  display: inline-block;
+  /* transform: translateY(100em); */
+  transform: scale(2) translate(100px, 100px) rotate(45deg);
+}

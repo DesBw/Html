@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test site</title>
+    <link href="Desu_practice_18.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Relative Positioning</h1>
+    <p id="firstp">
+      The position Property The position property specifies the type of
+      positioning method used for an element. There are five different position
+      values
+    </p>
+    <ul type="disc">
+      <!-- bullet type: disc/square/circle/none-->
+      <li>static</li>
+      <li>relative</li>
+      <li>fixed</li>
+      <li>absolute</li>
+      <li>sticky</li>
+    </ul>
+
+    <p>
+      Elements are then positioned using the top, bottom, left, and right
+      properties. However, these properties will not work unless the position
+      property is set first. They also work differently depending on the
+      position value.
+    </p>
+    <p id="secondp">
+      HTML elements are positioned static by default. Static positioned elements
+      are not affected by the top, bottom, left, and right properties. An
+      element with position: static; is not positioned in any special way; it is
+      always positioned according to the normal flow of the page.
+    </p>
+
+    <h1>Absolute Positioning</h1>
+    <p id="thirdp">
+      elements of boxes are placed in absolute positions of their parent
+      objects. The absolute placement is not to the root document; rather to the
+      parent document to the point that the parent is positioned. If the parent
+      is not positioned, it uses the root doc. - the parent is positioned
+      (relative or absolute): the child flies with it. - the parent is not
+      positioned, the child flies by itself.
+    </p>
+    <div class="box"></div>
+    <div class="box secondb"><span>This is my small text</span></div>
+    <div class="box"></div>
+    <h1>A button</h1>
+    <a href="#messages" class="btn"
+      >messages
+      <span style="" class="badge">3</span>
+    </a>
+
+    <h1>Fixed Position</h1>
+    <p>
+      These ones do work like the absolute in the sense that they place the
+      object in relative to the root document. They differ from the absolute
+      because the scroll doesn't move the object. It remains fixed in the
+      position. I am going to move this little span.
+      <span class="spn1">This little spanny text</span>
+    </p>
+  </body>
+</html>

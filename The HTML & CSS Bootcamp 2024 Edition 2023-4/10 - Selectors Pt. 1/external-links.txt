@@ -1,0 +1,21 @@
+
+001 MDN-Universal-Selector-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+
+002 MDN-Attribute-Selector-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+003 MDN-Selector-List-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list
+
+004 MDN-Descendant-Combinator-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
+
+004 MDN-Child-Combinator-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+
+006 Selectors-Basics-Exercise-STARTER
+https://codepen.io/Colt/pen/rNrrBoW
+
+006 Selector-Basics-Exercise-SOLUTION
+https://codepen.io/Colt/pen/JjBBBWL

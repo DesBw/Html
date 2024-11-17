@@ -1,0 +1,32 @@
+h1 {
+  font-size: 60px;
+  font-family: sans serif;
+  color: rgb(255, 0, 0);
+}
+
+h2 {
+  font-style: italic;
+  color: #92b;
+  color: rgb(0, 0, 255);
+}
+
+h3 {
+  font-family: indie flower;
+  color: #920;
+  color: #0f0;
+}
+button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+p {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 80px;
+  letter-spacing: 10px;
+  background-color: rgba(0, 255, 0, 50%);
+}
+div {
+  background-color: #d50;
+  opacity: 30%;
+}

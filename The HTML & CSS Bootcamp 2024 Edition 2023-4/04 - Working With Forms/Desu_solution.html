@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test site</title>
+    <style>
+      body {
+        margin: 2em;
+        font: 16px -apple-system, sans-serif;
+        line-height: 1.333em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Your course landing Page</h1>
+
+    <form action="http://www.google.com" method="get">
+      <label for="_Course"> Course Title </label>
+      <input type="text" name="Course" placeholder="" id="_Course" required />
+
+      <div>
+        <div align="left">
+          <label for="_desc"> Course Description </label>
+        </div>
+        <textarea cols="50" rows="5" name="" id="_desc"> </textarea>
+      </div>
+
+      <div align="left">
+        <label for="s_select">Skill Level</label>
+        <select name="Skill" id="s_select">
+          <option value="b">beginner</option>
+          <option value="i">intermediate</option>
+          <option value="a">advanced</option>
+          <option value="a">all levels</option>
+        </select>
+      </div>
+      <label for="_mycheck">Ready to publish the course?</label>
+      <input type="checkbox" name="mycheck" id="_mycheck" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

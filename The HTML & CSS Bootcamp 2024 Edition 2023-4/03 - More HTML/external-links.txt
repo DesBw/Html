@@ -1,0 +1,30 @@
+
+001 MDN-Unordered-Lists
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+
+001 MDN-Ordered-Lists
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+
+002 MDN-The-Emphasis-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+
+002 MDN-The-Strong-Importance-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+
+002 MDN-The-Idiomatic-Text-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i
+
+002 MDN-The-Bring-Attention-To-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
+
+004 MDN-The-Superscript-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+
+004 MDN-The-Subscript-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+
+006 MDN-The-Anchor-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+008 MDN-The-Image-Embed-Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img

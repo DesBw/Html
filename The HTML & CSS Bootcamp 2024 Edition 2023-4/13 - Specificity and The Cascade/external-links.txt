@@ -1,0 +1,21 @@
+
+002 MDN-General-Sibling-Combinator-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+
+002 MDN-Adjacent-Sibling-Combinator-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
+
+003 MDN-Pseudo-Classes-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+004 MDN-Pseudo-Elements-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+005 CSS-Selectors-Pt-2-Exercise-STARTER
+https://codepen.io/Colt/pen/gOjjKQd
+
+005 CSS-Selectors-Pt-2-Exercise-SOLUTION
+https://codepen.io/Colt/pen/qByyypy
+
+009 GREAT-Cascade-Blog-Post-
+https://wattenberger.com/blog/css-cascade

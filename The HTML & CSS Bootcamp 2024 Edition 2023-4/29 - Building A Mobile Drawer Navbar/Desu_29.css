@@ -1,0 +1,285 @@
+.maincontainer {
+  box-sizing: border-box;
+  /* max-width: 100%; */
+}
+
+/* the right side navbar */
+.right img {
+  width: 20px;
+  height: 20px;
+}
+.right a {
+  text-decoration: none;
+  color: black;
+}
+.right a:hover {
+  text-decoration: underline;
+}
+.right {
+  width: 250px;
+  /* 		width | style | color */
+  /* border: thin solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* patrick star*/
+.left {
+  font-size: 32px;
+  font-weight: bold;
+}
+/*the main bar containing both the left and right*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+  max-width: 100%; /* 		width | style | color */
+  /* margin: auto; */
+  right: 0;
+  /* top: 0; */
+}
+
+/*arrangmenet of the images*/
+.project-grid {
+  display: grid;
+  /* grid-template-columns: 400px 400px 1fr; */
+  grid-template-areas:
+    "eth eth alphabet"
+    "eth eth traveler"
+    "astro cube traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimension"
+    "foam foam dimension";
+  gap: 16px;
+  width: 100%;
+  max-width: 100%;
+}
+
+#eth {
+  grid-area: eth;
+}
+#alphabet {
+  grid-area: alphabet;
+}
+#traveler {
+  grid-area: traveler;
+}
+#cube {
+  grid-area: cube;
+}
+#astro {
+  grid-area: astro;
+}
+#insta {
+  grid-area: insta;
+}
+#foam {
+  grid-area: foam;
+}
+#dimension {
+  grid-area: dimension;
+}
+#cup {
+  grid-area: cup;
+}
+
+.project {
+  /* width: 400px; */
+  /* border: 4px solid green; */
+  position: relative;
+}
+.project img {
+  width: 100%;
+  height: 100%;
+}
+
+/*the overlay text*/
+.overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.overlay.white {
+  color: white;
+}
+
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  padding: 64px;
+}
+
+.hamburger {
+  display: none;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+/*Mid Desktop size*/
+@media only screen and (max-width: 1100px) {
+  .maincontainer {
+    max-width: 100%;
+  }
+  .project-grid {
+    grid-template-areas:
+      "eth eth"
+      "alphabet traveler"
+      "astro cube"
+      "insta insta"
+      "cup foam"
+      "dimension dimension";
+  }
+}
+/* MOBILE size*/
+@media only screen and (max-width: 768px) {
+  .project-grid {
+    grid-template-areas:
+      "eth eth"
+      "alphabet alphabet"
+      "traveler traveler"
+      "astro cube"
+      "insta insta"
+      "cup cup"
+      "foam foam"
+      "dimension dimension";
+    max-width: 100%;
+    margin-top: 100px;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right {
+    display: none;
+  }
+  .overlay {
+    font-size: 24px;
+  }
+}
+
+.navbar {
+  box-sizing: border-box;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: white;
+  width: 100%;
+}
+
+.bar {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+/* The HAMBURGER -----------*/
+.hamburger {
+  height: 50px;
+  width: 50px;
+}
+/* 
+.hamburger .bar:nth-child(1) {
+  animation: flipBar1 1s linear 0.3s 1 normal forwards running;
+}
+.hamburger .bar:nth-child(2) {
+  animation: fadebar2 1s linear 0s 1 normal both running;
+}
+.hamburger .bar:nth-child(3) {
+  animation: flipBar3 1s linear 0.3s 1 normal both running;
+} 
+*/
+
+@keyframes flipBar1 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg) translate(4px, 10px);
+  }
+}
+
+@keyframes fadebar2 {
+  /*to fade away the middle bar on a click*/
+  from {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  to {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flipBar3 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg) translate(4px, -10px);
+  }
+}
+
+.animateBar1 {
+  /*		Name | Duration | easing-function | delay | iteration-count | direction | fill-mode |  play state */
+  animation: flipBar1 0.3s linear 0.3s 1 normal both running;
+}
+.animateBar2 {
+  animation: fadebar2 0.2s linear 0s 1 normal both running;
+}
+.animateBar3 {
+  animation: flipBar3 0.3s linear 0.3s 1 normal both running;
+}
+
+.mobileNav {
+  width: 80px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: -160px;
+  padding: 16px;
+}
+.mobileNav img {
+  width: 24px;
+  height: 24px;
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0;
+}
+
+.mobileNav a:hover {
+  text-decoration: underline;
+}
+.openDrawer {
+  transform: translateX(-160px);
+  transition: transform 0.2s;
+}

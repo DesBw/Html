@@ -1,0 +1,92 @@
+:root {
+  overflow: hidden; /* hides any part of the sun below the horizon */
+  background-color: lightblue;
+  display: flex;
+  justify-content: center; /* centers the sun in the background */
+}
+.box {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box,
+h2 {
+  /*		Duration | easing-function | delay | iteration-count | direction | fill-mode |  play state | name */
+  animation: 3s linear 3s 3 alternate both running spin;
+
+  /* animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+   */
+}
+
+h2 {
+  background-color: green;
+  width: 40%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0% {
+  }
+  6% {
+    transform: translateY(0px);
+  }
+  7% {
+    transform: translateY (-200px);
+  }
+  9% {
+    transform: translateY (0px);
+  }
+  10% {
+    transform: translateY(-100px);
+  }
+  11% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-200px);
+  }
+  50% {
+    transform: translateY(-0px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  100% {
+  }
+}
+
+.sun {
+  background-color: yellow;
+  border-radius: 50%; /* creates a circular background */
+  height: 60vh; /* 100vh makes the sun the size of the viewport */
+  aspect-ratio: 1 / 1;
+  animation: 4s linear 0s 10 alternate sun-rise;
+}
+
+@keyframes sun-rise {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateY(110vh);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateY(0);
+  }
+}

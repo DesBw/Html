@@ -1,0 +1,24 @@
+
+002 MDN-keyframes-Reference
+https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+
+002 Article-Using-CSS-Animations
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+004 MDN-Animation-Duration-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration
+
+004 MDN-Animation-Direction-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction
+
+004 MDN-Animation-Iteration-Count
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count
+
+004 MDN-Animation-Timing-Function-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+
+006 MDN-Animation-Shorthand-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+009 MDN-Animation-Fill-Mode-Property
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode

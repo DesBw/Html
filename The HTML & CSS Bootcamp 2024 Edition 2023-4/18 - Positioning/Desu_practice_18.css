@@ -1,0 +1,84 @@
+p {
+  border: 1px solid black;
+  background: rgb(225, 189, 225);
+  margin: 30px;
+  font-size: 1rem;
+  /* position: static; default*/
+}
+
+#secondp {
+  position: relative;
+  top: 40px;
+  right: 30px;
+  z-index: 5;
+  background-color: aqua;
+}
+
+#thirdp {
+  position: relative;
+  z-index: 10;
+}
+
+/* all position commands such as z-index, right, top, left, work only when the element is marked relative position 
+- position: relative: is motion in relative to its original position*/
+
+.box {
+  background-color: olive;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+.secondb {
+  background-color: red;
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+  /* right: 30px;
+  top: -20px; */
+  z-index: 11;
+}
+/* absolute: in relation to the coordinates of the root html document, in absolute terms; absolute position. The original position is totally forgotten. */
+
+.box span {
+  color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* 
+*/
+body {
+  background: radial-gradient(#8a979e, #01579b);
+  /* display: inline-block; */
+}
+.btn {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: relative;
+  left: 300px;
+  bottom: 20px;
+  border: 2px solid white;
+  padding: 15px 50px; /*the size of space between the content (text) and border */
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.badge {
+  /* display: inline-block; */
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+.spn1 {
+  background-color: yellow;
+  font-size: 20px;
+  /* display: inline-block; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
