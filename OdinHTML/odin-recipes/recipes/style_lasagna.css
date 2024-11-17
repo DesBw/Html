@@ -1,0 +1,84 @@
+/** {
+  outline: 2px solid red;
+}*/
+* {
+  /* univ ersal selector */
+  color: green;
+}
+.small {
+  /*-- class selector */
+  color: red;
+}
+#p3 {
+  /* the id selector (7) overrides the type selector in (4) */
+  color: blue;
+}
+div {
+  /* element/type selector; no dot */
+  color: white;
+}
+#title {
+  /*id selector*/
+  background-color: rgb(100, 0, 25);
+}
+
+.read,
+.unread {
+  /* grouping classes*/
+  color: white;
+  background-color: transparent;
+}
+
+p {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+  font-family: "Times New Roman", serif;
+  font-size: medium;
+  font-weight: 500;
+  text-align: justify;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+/* specificity heirarchy: 
+ID selector > class selelctor > type selector > universal selector 
+- From the class selectors, the chained ones ovverride the simple ones (single ones). 
+
+
+
+<div class="main">
+  <div class="list" id="subsection">Red text on yellow background</div>
+</div>
+
+*/
+
+#subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 ; this one wins because it has more ruls, chain*/
+.main #subsection {
+  color: red;
+}
+
+/*
+cascading (presidence) rules are relevant only when there is conflict. 
+
+*/
+
+#parent {
+  color: red;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+/*there is no inheritance from parent to child in a heirarchy
+*/
+
+/*Rule order
+If everything is equal, the rule that comes last winns
+*/
